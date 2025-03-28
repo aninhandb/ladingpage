@@ -1,0 +1,76 @@
+
+header img { margin-top: 10px;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1000px;
+
+    
+    
+} 
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-right: 120px;
+    
+    
+}
+header nav ul li{
+   font-size: 20px;
+   font-family: 'Courier New', Courier, monospace
+
+
+}
+.projetos,
+.contato{
+    text-decoration:none;
+    color: black;
+}
+
+
+
+hr { border-top:solid 1px rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+    margin-right: 400px;
+}
+.titulo{
+padding-left:272px;
+padding-top: 300px;
+margin-bottom: 0px;
+
+font-family: "Baskervville", serif;
+font-weight: 400;
+font-size: xxx-large;
+}
+
+.text{
+    margin-top: 0px;
+    padding-left: 272px;
+    font-family: "Space Mono", monospace;
+    font-weight: 200;
+    font-size:xx-large;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+#HTML{ color:rgb(42, 137, 200);
+    font-weight: 600;
+
+
+}
+#CSS{
+    color: rgb( 242,93,39);
+    font-weight: 600;
+}
+.linkedin {
+    color: #0a0000;
+    opacity: 65%;  }
