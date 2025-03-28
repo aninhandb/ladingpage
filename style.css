@@ -1,5 +1,10 @@
+header{ margin: auto;
+min-width: 360px;
+}
+    
 
 header img { margin-top: 10px;
+    
 }
 
 
@@ -8,7 +13,10 @@ header nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 1000px;
+    gap: 100px;
+    margin:auto;
+    
+
 
     
     
@@ -19,12 +27,13 @@ header nav ul {
     flex-direction: row;
     gap: 100px;
     padding-right: 120px;
+    min-width: 360px;
     
     
 }
 header nav ul li{
    font-size: 20px;
-   font-family: 'Courier New', Courier, monospace
+
 
 
 }
@@ -35,13 +44,21 @@ header nav ul li{
 }
 
 
-
+main{
+    min-width: 100px;
+    margin: auto;
+}
 hr { border-top:solid 1px rgb(255, 255, 255);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
     margin-left: 300px;
     margin-right: 400px;
+}
+main
+{
+margin: auto;
+min-width: 360px;
 }
 .titulo{
 padding-left:272px;
